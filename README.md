@@ -1,7 +1,10 @@
 Install the MCP server:
-bashCopy# Clone the repository
+# Clone the repository
+
+```
 git clone https://github.com/yourusername/bright-data-mcp.git
 cd bright-data-mcp
+```
 
 # Install dependencies and build
 npm install
@@ -9,7 +12,8 @@ npm run build
 
 Configure Claude Desktop to use your MCP server:
 In Claude Desktop settings, add the following to your claude_desktop_config.json:
-jsonCopy{
+```
+{
   "mcpServers": {
     "bright-data": {
       "command": "node",
@@ -20,6 +24,7 @@ jsonCopy{
     }
   }
 }
+```
 
 Test your integration with prompts like:
 
