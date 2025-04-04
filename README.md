@@ -7,9 +7,10 @@ cd bright-data-mcp
 ```
 
 # Install dependencies and build
+```
 npm install
 npm run build
-
+```
 Configure Claude Desktop to use your MCP server:
 In Claude Desktop settings, add the following to your claude_desktop_config.json:
 ```
